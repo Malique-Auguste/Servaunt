@@ -1,0 +1,11 @@
+C:\Users\maliq\Projects\Servaunt\target\debug\deps\libuncased-c9c323cc5b278a9c.rmeta: C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\lib.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\serde.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\owned.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\borrowed.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\as_uncased.rs
+
+C:\Users\maliq\Projects\Servaunt\target\debug\deps\libuncased-c9c323cc5b278a9c.rlib: C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\lib.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\serde.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\owned.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\borrowed.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\as_uncased.rs
+
+C:\Users\maliq\Projects\Servaunt\target\debug\deps\uncased-c9c323cc5b278a9c.d: C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\lib.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\serde.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\owned.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\borrowed.rs C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\as_uncased.rs
+
+C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\lib.rs:
+C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\serde.rs:
+C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\owned.rs:
+C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\borrowed.rs:
+C:\Users\maliq\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uncased-0.9.10\src\as_uncased.rs:

@@ -1,0 +1,1 @@
+C:\Users\maliq\Projects\Servaunt\target\debug\servaunt.exe: C:\Users\maliq\Projects\Servaunt\src\lib.rs C:\Users\maliq\Projects\Servaunt\src\main.rs C:\Users\maliq\Projects\Servaunt\src\renderer.rs C:\Users\maliq\Projects\Servaunt\src\routes.rs C:\Users\maliq\Projects\Servaunt\src\user_manager.rs
