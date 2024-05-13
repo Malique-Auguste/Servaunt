@@ -1,0 +1,71 @@
+:root{
+    --primary: #5d2e46;
+    --accent1: #F433AB;
+    --accent2: #DDEEEE;
+    --accent1-light: #FCCFEB;
+}
+
+* {
+    color: var(--primary);
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, .h1-like {
+    font-family: Cardo, sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    width: 60vw;
+}
+
+span, a, p {
+    text-decoration: none;
+}
+
+.centred {
+    display: inline-block;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.button1 {
+    padding: 1vw;
+    background-color: var(--accent1);
+    border-radius: 15px;
+}
+
+.button2 {
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: var(--accent1);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#header-left {
+    font-family: Cardo, sans-serif;
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+}
+
+#header-right {
+    font-family: Cardo, sans-serif;
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+}
+

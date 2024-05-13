@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#d7d7d7"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showborder="false"
+     inkscape:zoom="2.9825758"
+     inkscape:cx="196.13919"
+     inkscape:cy="599.31419"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#fccfeb;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 53.580646,109.29032 c 2.029109,-7.33591 0.351851,-12.302886 19.161289,-12.419354 14.326611,-0.08871 10.155899,8.406804 15.264886,13.886384 7.501036,8.04514 10.227978,10.97104 3.82582,27.74434 C 88.01641,148.5 74.673409,154.01477 69.700379,144.98065 62.23455,131.41805 46.918291,133.37696 53.580646,109.29032 Z"
+       id="path1"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="bg1.svg"
+       inkscape:export-xdpi="400.25"
+       inkscape:export-ydpi="400.25" />
+    <path
+       style="fill:#ddeeee;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 152.07356,107.14202 c 6.62086,3.75461 18.02347,4.04836 10.44115,24.0953 -5.06841,13.40041 -8.24128,13.10141 -15.12582,16.05619 -10.10791,4.33821 -14.95123,-9.71714 -23.7663,-12.34717 -6.14706,-1.83401 -7.40578,-12.73559 -5.35409,-22.84187 1.44964,-7.1407 19.33445,-13.168569 33.80506,-4.96245 z"
+       id="path2"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="bg2.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:#fccfeb;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.50348,168.53221 c -7.261641,2.28065 -9.776703,16.88146 3.746746,27.13831 11.415054,8.65773 16.552294,7.59637 23.474814,4.73173 10.16368,-4.2059 0.55749,-13.4957 4.83049,-21.64211 2.97971,-5.68078 -11.73323,-24.66246 -16.95829,-22.26688 -5.744965,2.63395 -3.41126,8.36984 -15.09376,12.03895 z"
+       id="path3"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="bg3.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:#ddeeee;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 177.03212,196.83523 c 4.26569,-1.13468 14.11714,-1.42572 8.07895,-19.24 -2.69797,-7.95973 -7.68272,-9.37014 -15.80672,-7.62341 -5.12041,1.10094 -6.90307,-17.40641 -22.69638,-0.91112 -8.75837,9.14765 -5.41765,26.06469 -0.14965,30.40508 11.94852,9.84458 23.78329,-0.82427 30.5738,-2.63055 z"
+       id="path4"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="bg4.svg"
+       inkscape:export-xdpi="400.25"
+       inkscape:export-ydpi="400.25" />
+    <circle
+       style="fill:#f433ab;stroke-width:33.0797;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953;fill-opacity:1"
+       id="path5"
+       cx="49.958065"
+       cy="165.28064"
+       r="12.7"
+       inkscape:export-filename="upload.svg"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       id="rect5"
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:13.2352;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       d="m 49.958065,158.93064 c -0.703579,0 -1.270207,0.56611 -1.270207,1.26969 v 3.8101 h -3.810103 c -0.703579,0 -1.26969,0.56663 -1.26969,1.27021 0,0.70358 0.566111,1.26969 1.26969,1.26969 h 3.810103 v 3.8101 c 0,0.70358 0.566628,1.27021 1.270207,1.27021 0.703579,0 1.26969,-0.56663 1.26969,-1.27021 v -3.8101 h 3.810103 c 0.70358,0 1.270207,-0.56611 1.270207,-1.26969 0,-0.70358 -0.566627,-1.27021 -1.270207,-1.27021 h -3.810103 v -3.8101 c 0,-0.70358 -0.566111,-1.26969 -1.26969,-1.26969 z" />
+  </g>
+</svg>

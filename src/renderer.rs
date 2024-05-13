@@ -1,8 +1,9 @@
 use crate::user_manager::*;
 
-use core::num;
-use std::{fs, io::Read};
+use std::{fmt::{format, Debug}, fs, io::Read};
 use rocket::fs::{TempFile, NamedFile};
+use chrono::DateTime;
+use chrono::offset::Utc;
 
 pub fn render(html_file_path: &str, user: Option<&User>, error: Option<&String>, message: Option<&Vec<String>>) -> Result<String, String> {
     let mut html_file = match fs::OpenOptions::new().read(true).open(html_file_path) {
@@ -45,26 +46,28 @@ pub fn render(html_file_path: &str, user: Option<&User>, error: Option<&String>,
 }
 
 pub fn render_myfiles(html_file_path: &str, user: &User) -> Result<String, String>  {
-    let mut html_file = match fs::OpenOptions::new().read(true).open(html_file_path) {
-        Ok(f) => f,
-        Err(e) => return Err(format!("Error encountered while opening file: {}", e))
-    };
-    
-    let mut html_file_content = String::new();
+    let mut html_file_content = render(html_file_path, Some(user), None, None).unwrap();
 
-    match html_file.read_to_string(&mut html_file_content) {
-        Ok(_) => (),
-        Err(e) => return Err(format!("Error encountered while reading file: {}", e))
-    };
-
-    html_file_content = html_file_content.replace("{name}", user.get_name());
-
-    let user_directory = format!("database/{}", user.get_name());
+    let user_directory = format!("database\\{}", user.get_name());
     let mut file_html_links = String::new();
 
-    for file_name in fs::read_dir(user_directory).unwrap() {
-        file_html_links = format!("{}\n<li>{}</li>", file_html_links, file_name.unwrap().path().display());
-    }
+    match fs::read_dir(user_directory) {
+        Ok(l) => for file in l {
+            let file = file.unwrap();
+    
+            let file_name = file.file_name().into_string().unwrap();
+            let file_size = format!("{:.2} MB", (file.metadata().unwrap().len() as f64) / 1e6);
+    
+            let file_time:DateTime<Utc> = file.metadata().unwrap().created().unwrap().into();
+            let file_time = file_time.format("%d/%m/%y");
+    
+    
+            file_html_links = format!("{}\n<tr><td>{}</td><td>{}</td><td>{}</td></tr>", file_html_links, file_name, file_size, file_time);
+        },
+        Err(_) => file_html_links = "This user has not uploaded any files.".into()
+    };
+
+    
 
     html_file_content = html_file_content.replace("{files}", &file_html_links);
 

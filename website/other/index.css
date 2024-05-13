@@ -1,0 +1,36 @@
+.button1 {
+    margin-right: 1vw;
+}
+
+.button2 {
+    margin-left: 1vw;
+}
+
+
+#background > * {
+    position: absolute;
+    filter: blur(50px);
+}
+
+#bg1 {
+    top: 35vh;
+    left: 30vw;
+    scale: 3;
+}
+
+#bg2 {
+    top: 50vh;
+    left: 40vw;
+}
+
+#bg3 {
+    top: 55vh;
+    left: 60vw;
+    scale: 1.5;
+
+}
+
+#bg4 {
+    top: 30vh;
+    left: 50vw;
+}

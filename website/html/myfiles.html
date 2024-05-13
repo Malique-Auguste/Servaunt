@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Files | Servaunt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="constant.css">
+    <link rel="stylesheet" href="myfiles.css">
+
+</head>
+<body>
+    <a id = "header-left" href = "index.html">My Files | Servaunt</a>
+    <span id = "header-right">{name}</span>
+    
+    <div class="centred horizontal">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file"><img src="upload.svg" alt=""></label>
+            <input type="file" name="file" id = "file" onchange="this.form.submit()">
+        </form>
+        <table>
+            <tr>
+                <th>File Name</th>
+                <th>Size</th>
+                <th>Type</th>
+            </tr>
+            {files}
+        </table>
+    </div>
+</body>
+</html>

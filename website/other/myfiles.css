@@ -1,0 +1,33 @@
+body {
+    background-image: radial-gradient(var(--accent1-light), white);
+}
+
+th, td {
+    text-align: left;
+    padding: 1vw;
+    border-bottom: solid;
+}
+
+label {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+
+label > img {
+    width: inherit;
+    height: inherit;
+}
+
+input[type = "file"] {
+    display: none;
+}
+
+form {
+    padding-right: 2vw;
+}
+
+.horizontal > *{
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(white, var(--accent1-light));
+}
+
+form {
+    width: 60vw
+}
+
+p {
+    text-align: center;
+}
+
+#name, #password, #name:focus, #password:focus{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: var(--primary);
+
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+.button2 {
+    margin-top: 2vw;
+}
