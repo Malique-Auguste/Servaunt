@@ -18,7 +18,7 @@
     <span id = "header-right">{name}</span>
     
     <div class="centred horizontal">
-        <form action="/upload" method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data">
             <label for="file"><img src="upload.svg" alt=""></label>
             <input type="file" name="file" id = "file" onchange="this.form.submit()">
         </form>
@@ -27,7 +27,10 @@
                 <th>File Name</th>
                 <th>Size</th>
                 <th>Type</th>
+                <th></th>
             </tr>
+
+            
             {files}
         </table>
     </div>

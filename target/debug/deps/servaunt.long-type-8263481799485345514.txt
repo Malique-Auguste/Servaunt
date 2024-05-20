@@ -1,0 +1,1 @@
+Pin<Box<dyn std::future::Future<Output = Outcome<rocket::Response<'_>, Status, (rocket::Data<'_>, Status)>> + std::marker::Send>>

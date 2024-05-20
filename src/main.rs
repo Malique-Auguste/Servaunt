@@ -22,8 +22,7 @@ fn rocket() -> _ {
         .mount("/index.html", routes![routes::index])
         .mount("/signup.html", routes![routes::signup, routes::signup_data])
         .mount("/login.html", routes![routes::login, routes::login_data])
-        .mount("/myfiles.html", routes![routes::my_files])
-        .mount("/upload", routes![routes::upload_data])
+        .mount("/myfiles.html", routes![routes::my_files, routes::upload_data, routes::open, routes::delete])
         .manage(dm_wrapper)
 }
 

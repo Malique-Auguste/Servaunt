@@ -10,24 +10,53 @@ th, td {
 
 label {
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: 4vw;
+    height: 4vw;
 }
 
 label > img {
-    width: inherit;
-    height: inherit;
+    width: 2vw;
+    height: 2vw;
+    color: var(--primary);
+    background-color: var(--accent1);
+    padding: 1vw;
+    border: none;
+    border-radius: 100%;
 }
 
 input[type = "file"] {
     display: none;
 }
 
-form {
-    padding-right: 2vw;
+div > form {
+    margin-right: 2vw;
 }
+
+td > form {
+    display: inline-block;
+}
+
+td > form > button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
 
 .horizontal > *{
     display: inline-block;
     vertical-align: middle;
+}
+
+#open_button, #delete_button {
+    width: 0.6vw;
+    height: 0.6vw;
+    padding: 0.4vw;
+    margin: 0 0.5vw;
+
+    color: var(--primary);
+
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-radius: 0.5vw;
+    border-color: var(--accent1);
 }

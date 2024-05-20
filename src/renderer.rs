@@ -60,9 +60,27 @@ pub fn render_myfiles(html_file_path: &str, user: &User) -> Result<String, Strin
     
             let file_time:DateTime<Utc> = file.metadata().unwrap().created().unwrap().into();
             let file_time = file_time.format("%d/%m/%y");
+
+            let open_button = format!(
+                "<form method='get' action = 'myfiles.html/open/{}' enctype='multipart/form-data'>
+                    <button type='submit'>
+                        <img src='open.svg' id = 'open_button'>
+                    </button>
+                </form>", file_name);
+
+            let delete_button = format!(
+                "<form method='post' action = 'myfiles.html/delete/{}' enctype='multipart/form-data'>
+                    <button type='submit'>
+                        <img src='delete.svg' id = 'delete_button'>
+                    </button>
+                </form>", file_name);
+
     
     
-            file_html_links = format!("{}\n<tr><td>{}</td><td>{}</td><td>{}</td></tr>", file_html_links, file_name, file_size, file_time);
+            file_html_links = format!("{}\n<tr><td>{}</td><td>{}</td><td>{}</td><td>{}{}</td></tr>", 
+                                            file_html_links, file_name, file_size, file_time, open_button, delete_button);
+            
+
         },
         Err(_) => file_html_links = "This user has not uploaded any files.".into()
     };

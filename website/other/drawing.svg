@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
      showborder="false"
-     inkscape:zoom="2.9825758"
-     inkscape:cx="196.13919"
-     inkscape:cy="599.31419"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="116.67767"
+     inkscape:cy="705.7658"
      inkscape:window-width="1920"
      inkscape:window-height="1051"
      inkscape:window-x="-9"
@@ -84,6 +84,135 @@
     <path
        id="rect5"
        style="fill:#5d2e46;fill-opacity:1;stroke-width:13.2352;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
-       d="m 49.958065,158.93064 c -0.703579,0 -1.270207,0.56611 -1.270207,1.26969 v 3.8101 h -3.810103 c -0.703579,0 -1.26969,0.56663 -1.26969,1.27021 0,0.70358 0.566111,1.26969 1.26969,1.26969 h 3.810103 v 3.8101 c 0,0.70358 0.566628,1.27021 1.270207,1.27021 0.703579,0 1.26969,-0.56663 1.26969,-1.27021 v -3.8101 h 3.810103 c 0.70358,0 1.270207,-0.56611 1.270207,-1.26969 0,-0.70358 -0.566627,-1.27021 -1.270207,-1.27021 h -3.810103 v -3.8101 c 0,-0.70358 -0.566111,-1.26969 -1.26969,-1.26969 z" />
+       d="m 13.232634,163.08324 c -0.703579,0 -1.270207,0.56611 -1.270207,1.26969 v 3.8101 H 8.1523236 c -0.703579,0 -1.26969,0.56663 -1.26969,1.27021 0,0.70358 0.566111,1.26969 1.26969,1.26969 h 3.8101034 v 3.8101 c 0,0.70358 0.566628,1.27021 1.270207,1.27021 0.703579,0 1.26969,-0.56663 1.26969,-1.27021 v -3.8101 h 3.810103 c 0.70358,0 1.270207,-0.56611 1.270207,-1.26969 0,-0.70358 -0.566627,-1.27021 -1.270207,-1.27021 h -3.810103 v -3.8101 c 0,-0.70358 -0.566111,-1.26969 -1.26969,-1.26969 z"
+       inkscape:export-filename="upload.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       style="fill:#f433ab;fill-opacity:1;stroke-width:25.4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect1"
+       width="25.4"
+       height="25.4"
+       x="37.258064"
+       y="187.53226"
+       rx="0" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:30.2059;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect2"
+       width="2.54"
+       height="17.960512"
+       x="155.65109"
+       y="124.36659"
+       ry="1.27"
+       transform="rotate(45)"
+       inkscape:export-filename="open.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:25.4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect3"
+       width="2.54"
+       height="12.7"
+       x="198.5273"
+       y="-23.392637"
+       ry="1.27"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:25.4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect4"
+       width="2.54"
+       height="12.7"
+       x="-23.392637"
+       y="-211.22729"
+       ry="1.27"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#f433ab;fill-opacity:1;stroke-width:25.4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect6"
+       width="25.4"
+       height="25.4"
+       x="36.522518"
+       y="220.02495"
+       rx="0" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:29.6038;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect9"
+       width="2.54"
+       height="17.251673"
+       x="-22.122637"
+       y="-244.98788"
+       ry="1.27"
+       transform="scale(-1)"
+       rx="1.27"
+       inkscape:export-filename="delete.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:29.6038;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect10"
+       width="2.54"
+       height="17.251673"
+       x="-11.962637"
+       y="-244.98788"
+       ry="1.27"
+       transform="scale(-1)"
+       rx="1.27" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:25.4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect11"
+       width="2.54"
+       height="12.7"
+       x="-244.98788"
+       y="9.422636"
+       ry="1.27"
+       transform="rotate(-90)"
+       rx="1.27" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:30.0536;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect12"
+       width="2.54"
+       height="17.780001"
+       x="-229.74789"
+       y="6.8826318"
+       ry="1.27"
+       transform="rotate(-90)"
+       rx="1.27" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:16.0644;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect14"
+       width="2.54"
+       height="5.0799999"
+       x="-228.47789"
+       y="13.232634"
+       ry="1.27"
+       transform="rotate(-90)"
+       rx="1.27" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:19.6748;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect16"
+       width="2.54"
+       height="7.6199999"
+       x="176.82935"
+       y="151.98347"
+       ry="1.27"
+       rx="1.27"
+       transform="rotate(45)" />
+    <rect
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:19.6748;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       id="rect17"
+       width="2.54"
+       height="7.6199999"
+       x="-157.06348"
+       y="-181.90935"
+       ry="1.27"
+       rx="1.27"
+       transform="matrix(0.70710678,-0.70710678,-0.70710678,-0.70710678,0,0)" />
+    <path
+       id="rect5-6"
+       style="fill:#5d2e46;fill-opacity:1;stroke-width:13.2352;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.77953"
+       d="m 80.425545,232.04737 c -0.497505,-0.4975 -1.298472,-0.49787 -1.795978,-3.6e-4 l -2.694148,2.69414 -2.69415,-2.69415 c -0.497505,-0.4975 -1.298474,-0.49713 -1.79598,3.7e-4 -0.497506,0.49751 -0.497506,1.29811 0,1.79561 l 2.69415,2.69415 -2.694148,2.69415 c -0.497506,0.49751 -0.497508,1.29884 -2e-6,1.79635 0.497505,0.4975 1.298474,0.49714 1.79598,-3.7e-4 l 2.694148,-2.69415 2.69415,2.69415 c 0.497506,0.49751 1.298472,0.49787 1.795978,3.7e-4 0.497506,-0.49751 0.497508,-1.29884 2e-6,-1.79635 l -2.694149,-2.69415 2.694147,-2.69415 c 0.497506,-0.4975 0.497506,-1.2981 0,-1.79561 z"
+       inkscape:export-filename="delete.svg"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
   </g>
 </svg>
